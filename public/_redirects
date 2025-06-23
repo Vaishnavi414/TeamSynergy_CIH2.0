@@ -1,0 +1,36 @@
+# SPA Routes - Handle all routes for React Router
+# Authentication routes
+/sign-in/* /index.html 200
+/sign-up/* /index.html 200
+
+# Main dashboard routes
+/dashboard /index.html 200
+/immersive-dashboard /index.html 200
+
+# Trading & Analysis routes
+/smart-contracts /index.html 200
+/price-trends /index.html 200
+/risk-visualization /index.html 200
+/portfolio /index.html 200
+/hybrid-risk /index.html 200
+
+# Contract Analysis routes
+/contracts /index.html 200
+/contract-scanner /index.html 200
+/compliance-checker /index.html 200
+/credit-score-nft /index.html 200
+
+# Risk Analysis routes
+/wallet-risk /index.html 200
+/token-volatility /index.html 200
+/hybrid-risk-analysis /index.html 200
+
+# Banking & Privacy routes
+/banking-accounts /index.html 200
+/privacy /index.html 200
+
+# Documentation routes
+/api-docs /index.html 200
+
+# Catch-all fallback for any other SPA routes
+/* /index.html 200
